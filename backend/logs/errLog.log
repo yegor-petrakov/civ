@@ -1,0 +1,326 @@
+20240307	17:07:27	2ab7b123-9664-47a9-9d20-25d159b8da6d	Error: Not allowed by CORS	OPTIONS	/notes	http://localhost:3000
+20240307	17:11:42	eb35c6ed-e7c4-44e3-87c4-735f2a598feb	Error: Not allowed by CORS	OPTIONS	/notes	http://localhost:3000
+20240307	17:11:58	fc7af4c8-eb2f-4c7b-a091-abc814a99856	Error: Not allowed by CORS	OPTIONS	/notes	http://localhost:3000
+20240307	17:12:14	feae6e7b-ba0b-4766-b7f8-1b13cdd934de	Error: Not allowed by CORS	OPTIONS	/notes	http://localhost:3000
+20240307	17:12:31	6b58c50a-01e3-4cc6-ba9f-818379c7d43c	Error: Not allowed by CORS	OPTIONS	/notes	http://localhost:3000
+20240307	17:24:38	b85844f6-13c6-4878-9254-8ae930c64012	ReferenceError: rows is not defined	POST	/auth	undefined
+20240307	17:28:18	c944e7af-7cb7-4cb7-9108-7a2efd33d0b5	Error: data and hash arguments required	POST	/auth	undefined
+20240307	17:29:24	efad04b0-2504-4d29-9c25-13613110562c	TypeError: Cannot read properties of undefined (reading 'rowCount')	POST	/auth	undefined
+20240307	17:30:24	31bc273b-17bc-4f0b-807a-385f7c485d6e	TypeError: Assignment to constant variable.	POST	/auth	undefined
+20240307	17:31:37	21caec3a-ef1c-4a1c-a8c0-0ef1bec34bc6	Error: data and hash arguments required	POST	/auth	undefined
+20240307	19:34:18	d87db991-7afc-4a80-b557-ef95f59f30d8	ReferenceError: active is not defined	POST	/users	undefined
+20240307	19:35:25	91761e37-8dd7-4610-98e0-1158b7d42a83	error: syntax error at or near "username"	POST	/users	undefined
+20240307	19:45:37	253a19ed-91e0-4970-9751-0c07b5128bed	error: syntax error at or near "username"	POST	/users	undefined
+20240307	19:46:01	aa86d92a-b1d3-481f-bd19-1bc9df677ae4	error: syntax error at or near "username"	POST	/users	undefined
+20240307	19:47:12	d6c1b423-cdce-495b-b66a-f946190ff8b8	error: column "username" does not exist	POST	/users	undefined
+20240307	19:47:55	000cebbc-2d81-4777-a260-9b8d21953625	error: column "username" does not exist	POST	/users	undefined
+20240307	19:55:32	cf90e06b-fa12-4660-bbc2-c3b35f5063c5	error: there is no parameter $1	PATCH	/users	undefined
+20240307	19:56:14	50c810c3-24d5-4a60-bce6-6c0c71e03cde	error: there is no parameter $1	PATCH	/users	undefined
+20240307	19:57:24	3d011993-13e7-4b62-a538-545af034c3d6	error: there is no parameter $1	PATCH	/users	undefined
+20240307	20:02:10	271f6c86-c0d3-45d0-a0df-aeccbb2c89e6	TypeError: Cannot read properties of undefined (reading 'username')	DELETE	/users	undefined
+20240307	20:03:58	7e843503-c667-4a78-bf33-736a38fa2ef7	TypeError: Cannot read properties of undefined (reading 'id')	DELETE	/users	undefined
+20240307	20:04:33	0159a1dd-ac98-42c4-9199-04a33bb6ddef	TypeError: Cannot read properties of undefined (reading 'username')	DELETE	/users	undefined
+20240307	20:12:31	1b069d19-4539-46f2-b618-591ac3ca2392	error: update or delete on table "users" violates foreign key constraint "notes_user_id_fkey" on table "notes"	DELETE	/users	undefined
+20240307	20:23:26	3f99f898-7b16-4056-be79-0594adec5258	SyntaxError: Unexpected token r in JSON at position 52	POST	/users	undefined
+20240307	20:23:43	fb20a184-c5b0-48e2-8435-8e45869d5ceb	SyntaxError: Unexpected token r in JSON at position 52	POST	/users	undefined
+20240307	20:24:27	e84a7214-45ad-4e23-b972-c72ced29debd	SyntaxError: Unexpected token r in JSON at position 52	POST	/users	undefined
+20240307	20:27:26	579430d1-dedf-437a-90ef-b2949c8d2944	SyntaxError: Unexpected token r in JSON at position 52	POST	/users	undefined
+20240307	20:27:43	c47c2a16-0d00-4146-ab8a-bf42affb37b3	SyntaxError: Unexpected token r in JSON at position 52	POST	/users	undefined
+20240307	20:27:59	c1f6a532-2c80-44a0-a41f-24f86041ebed	SyntaxError: Unexpected token ' in JSON at position 62	POST	/users	undefined
+20240307	20:28:04	37c72a1e-2557-445c-89a7-d1897ebecdf1	SyntaxError: Unexpected token ' in JSON at position 62	POST	/users	undefined
+20240307	20:28:11	e6c840e8-15d3-484a-80fd-990ffa03cdce	SyntaxError: Unexpected token ' in JSON at position 61	POST	/users	undefined
+20240307	20:28:23	eaf28512-b820-4714-ab7a-c8011f1628b6	error: malformed array literal: "['Admin']"	POST	/users	undefined
+20240307	20:28:32	979655c9-2426-42db-b52c-398c2ed7998b	error: malformed array literal: "ARRAY['Admin']"	POST	/users	undefined
+20240307	20:30:23	07882cd2-852a-404c-bec6-0ec643d75d2d	error: column "id" does not exist	GET	/users	undefined
+20240308	08:54:20	84a9f152-c610-47c3-aada-468e3a568992	Error: Not allowed by CORS	GET	/auth/refresh	http://localhost:5173
+20240308	09:33:11	98db30a9-d77f-40b9-8ebb-dceaa74142b6	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240309	16:18:45	701f9180-c6c6-4d56-8dc0-25a9c408159b	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240310	14:21:01	a9b9eec5-11b0-49b9-8884-0b51dfda40e0	error: syntax error at or near "vaultname"	GET	/vaults	undefined
+20240310	14:57:36	577d9a4b-7d60-4db4-adda-07f4ff950a0a	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/vaults	http://localhost:5173
+20240310	14:57:38	dc5120af-706c-4f97-98c2-a1eeb9451efd	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/vaults	http://localhost:5173
+20240311	18:47:56	f55ae28d-5456-4717-af13-6254deb90b19	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:00	d890df71-54a2-4fce-8d48-b4da171da51e	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:30	fc0a12e1-8736-43d6-b63d-460c5bacc7d1	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:32	96aab282-e4c0-4e77-94f2-5f9ff36097c8	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:35	f7491bf3-6440-4989-940e-d7d1993fd4b6	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:46	de6ee47e-a4bf-4a6a-9c37-b25772857965	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:48:47	64f6e9b1-4768-400e-8faa-4a072dd989cd	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:49:15	672e6a9d-ae75-4c67-9425-4359f399e229	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:49:17	2f1b075a-3c3c-4064-adba-1773f8b4baed	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:50:18	8f58b718-229e-4c78-bf17-ca7792801e17	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:51:19	3ea7d9da-9750-452d-8f32-13540c0c6940	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:52:20	b42be202-7dec-41b3-9ba5-8a11c98875aa	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:21	2f398e95-5828-44da-ade6-d7fbe5de8cfd	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:25	27fe4890-3190-4df2-a197-2461af8db81f	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:26	d1465782-3f4f-4a24-928b-9f5bdcf7fdb1	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:29	54c97635-6093-45f4-9d03-f0fcb20b82d9	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:34	757efe61-a45f-46cf-b5c3-8c4a9179cf2f	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:53:58	450b18a9-8570-4adb-8c3d-27ecc039283b	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:54:07	0f47befa-e973-478b-8bab-5f81ea1a7e26	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:54:11	f41ea0cb-ff92-4478-bf50-7a34686a7658	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:54:12	616fbfc0-306a-42b4-a448-045022126274	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:55:13	7f8abb53-1e7f-464f-83e3-9fc7e00ec13d	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:56:14	7cc4a72e-be60-4e2b-8c4e-533efc1ee03c	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:57:15	408840d4-199e-4684-85ce-34dde1b39e16	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:58:16	a277eaad-4976-44dc-a450-a5d72aefd4d4	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:58:43	4dd462d4-dee2-4a81-962f-5d0b13d81213	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:20	9e65aca7-c7e6-4204-9024-5f34f02a97b6	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:24	352fe166-49b0-4edd-b41f-6a6164159843	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:29	0ee9b58f-b59e-43ba-aceb-809a3cac3d6e	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:36	7a071588-fcfc-43a6-bbf9-724486364a67	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:54	dad1fffe-e22c-44ed-9365-dc9b669626a3	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	18:59:58	67f350ac-0edb-4224-a6ed-7e1fe1b0c121	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:00:59	e5986a85-561f-4fc7-bbc4-003b1e0e8303	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:01:28	8069b5b1-d50a-47a8-bb04-2c2cbee86280	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:11:17	e20d8b0c-24f7-4ed7-a4a2-7bc41c4363e6	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:11:23	19349a02-468d-4aa2-aa3c-5fafad5b1a3e	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:11:55	858c444a-6a15-4946-925d-797f1df92f54	error: column "codesvaults.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/vaults	http://localhost:5173
+20240311	19:12:01	891c5213-16f3-4d99-92e6-5cf79d26eddb	error: column "codesvaults.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/vaults	http://localhost:5173
+20240311	19:13:46	b819ff39-b4b8-4017-8a4d-acccb087e0bb	error: relation "codevaults" does not exist	GET	/vaults	http://localhost:5173
+20240311	19:13:49	7f494a75-f548-4345-a24e-7afbf5797099	error: relation "codevaults" does not exist	GET	/vaults	http://localhost:5173
+20240311	19:14:11	ff471ef2-0b90-4963-a52f-2ee4c380a274	ReferenceError: vaults is not defined	GET	/vaults	http://localhost:5173
+20240311	19:15:12	1b04e850-056c-445a-8187-05c3633a382b	ReferenceError: vaults is not defined	GET	/vaults	http://localhost:5173
+20240311	19:15:59	8f1e28e7-1933-45fc-8894-22baf0f97a2c	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:16:11	aa916413-f8cb-40f5-b8cb-ba0dc30dcf81	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:16:15	bffd0942-fb57-4cb1-9259-ba281354fb8b	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:16:36	a66343e2-e672-4d9e-be8e-13d9012c5c5a	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:17:37	344c5ded-c2c2-4c3c-b72d-a1807a534d61	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:17:53	dac59632-2833-4e0a-bbfa-2d476bd7db66	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:17:56	ece664ac-7e54-453e-b14b-183df88f6894	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:17:58	b162db06-4fda-4e39-b3f2-eb3175892bd2	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:18:02	295629b0-ffaa-4bed-bb01-851e95400f5f	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:18:51	c0c32ad9-3a91-4d02-b493-71f89984dec0	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:19:51	f7160ee7-e35f-451a-8131-123af564a8b8	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:20:12	f4864969-7306-4461-b644-b7d41f06fe59	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:20:16	fb8ad38c-aa57-404d-bb81-603aec91755d	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:20:33	fee56db9-0771-44e2-9c6f-38fd8b6fbf85	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:21:28	4b1e5171-476f-4e7c-bc6b-07a16223a482	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:21:29	b7fd9491-4e89-4b77-8152-ce2c4c477c9c	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:21:34	ddbbc600-91f0-4a93-a26b-c8887470e13c	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:24:59	8aaf4436-89b3-4885-b070-ff71d480c954	error: syntax error at or near "."	GET	/vaults	undefined
+20240311	19:30:50	3aa40806-f92b-4d54-b209-b9ee5cb4e571	error: syntax error at or near "."	GET	/vaults	http://localhost:5173
+20240311	19:47:27	7e870e78-393b-4a4e-8838-dd7ef0b80b34	error: syntax error at or near "ASC"	GET	/vaults	http://localhost:5173
+20240311	20:00:46	21096ee7-438a-496a-8cc6-a2f6bbf82d51	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:01:02	20689d09-b713-4ee8-979c-57fc01991963	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:02:03	d1a89654-95f4-4da5-89ef-012317331a5a	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:03:04	7c2f57ae-8306-4bb8-ad68-4a1f532d6bfd	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:04:05	7e91fc4c-2f9c-4309-98fe-5e822c6d0203	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:05:06	28dd3c0c-74a9-49c7-9f36-1562d078c432	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:05:06	2ca9fb97-c126-4d3c-941f-01159c081e21	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:06:07	23902448-c825-4066-ab68-bd529070e1b3	error: subquery must return only one column	GET	/vaults	http://localhost:5173
+20240311	20:13:53	f8c5de42-e046-4a4e-979c-dee13b028263	error: column reference "id" is ambiguous	GET	/vaults	http://localhost:5173
+20240311	20:14:07	fee10409-6522-40e7-a6cc-89b636394328	error: column reference "id" is ambiguous	GET	/vaults	http://localhost:5173
+20240311	20:14:11	d7af0539-d511-4944-9973-2be360cc7aa7	error: column reference "id" is ambiguous	GET	/vaults	http://localhost:5173
+20240313	20:16:21	43296d52-3cac-439b-a7c2-5d20e194e225	error: missing FROM-clause entry for table "v"	GET	/codes	http://localhost:5173
+20240313	20:16:21	632f0132-c446-41c9-997c-fe91d9809a44	error: missing FROM-clause entry for table "v"	GET	/codes	http://localhost:5173
+20240313	20:16:45	b669208d-63b4-46af-861f-949a8a621274	error: missing FROM-clause entry for table "v"	GET	/codes	http://localhost:5173
+20240313	20:16:49	45fdad35-3318-43a6-9fb4-d1c1d209df0a	error: missing FROM-clause entry for table "v"	GET	/codes	http://localhost:5173
+20240313	20:17:52	b38a302b-572c-47d3-88b0-f489a6bc785d	error: missing FROM-clause entry for table "v"	GET	/codes	http://localhost:5173
+20240313	20:41:33	c238d6fd-e7ac-44c8-896b-4631f7d55165	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:04	85fa0416-6197-4834-bd7c-6908d6405290	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:06	f6c3a8c6-01fa-4b22-8a25-52923ac976f7	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:19	df1a3a94-5925-4519-bd55-de0391e02432	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:20	993b376e-526a-45e5-8efd-a48b820d807a	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:27	1082388e-fa33-4561-b2af-ef07f5ac49e0	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:42:30	2f4c005f-984f-4a54-985c-4e1393aba77a	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:43:17	6e85c450-4264-4a3d-b2cb-0962d0761526	error: column "v.id" must appear in the GROUP BY clause or be used in an aggregate function	GET	/codes	http://localhost:5173
+20240313	20:50:57	a93c363e-ba2e-4e4e-a882-1ace1fbff03e	error: syntax error at or near "ASC"	GET	/codes	http://localhost:5173
+20240313	20:51:12	463e7587-9a3f-4b54-bacb-d9708059d921	error: syntax error at or near "ASC"	GET	/codes	http://localhost:5173
+20240314	19:30:51	847e2181-7ff3-4bca-9837-539b434151da	ReferenceError: code is not defined	DELETE	/codes	undefined
+20240314	19:31:25	816e6c26-901a-4995-a550-adca9d532d98	ReferenceError: code is not defined	DELETE	/codes	undefined
+20240314	19:32:46	18a09792-198e-4633-8e94-a204630fdf5a	error: update or delete on table "codes" violates foreign key constraint "codesvaults_code_id_fkey" on table "codesvaults"	DELETE	/codes	undefined
+20240314	19:33:18	23362315-51b3-4c5d-9ebe-385e7f4cb690	error: syntax error at or near "CASCADE"	DELETE	/codes	undefined
+20240314	19:40:14	e8bf6949-0d51-44eb-968f-ad7e0cc79cdc	error: syntax error at or near "CASCADE"	DELETE	/codes	undefined
+20240314	19:40:18	e919136c-069e-48c1-848d-913b848f4e32	error: syntax error at or near "CASCADE"	DELETE	/codes	undefined
+20240316	16:10:11	c074de5c-1957-4489-85c1-ee3779e042df	error: column "vaultname" of relation "users" does not exist	PATCH	/vaults	undefined
+20240316	16:14:35	5762abb0-05d5-4a19-8550-9f82fa92632e	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:14	f1e57638-bc4a-4b2d-968d-561172a03083	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:18	3592dac2-77a4-4d31-9570-142b7f7aba64	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:20	7c83363f-d48c-4f67-9391-3c52571b0485	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:29	6d13288c-5b95-4a9b-9927-eaa52cc91c69	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:34	a4cea067-c80b-46a3-b6d4-ae8a8b075dea	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:15:35	ec8c3acf-aa18-4a03-8c43-1648289313d8	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:16:35	fe34a792-4a39-4edc-9fb7-7030d6d758fa	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	16:17:18	5bbb8a79-7db6-4b7f-90a2-f52d673cea26	error: FILTER specified, but jsonb_build_object is not an aggregate function	GET	/vaults	http://localhost:5173
+20240316	22:21:46	22cf6890-6b1e-4d23-840c-844f271fc406	ReferenceError: newVault is not defined	POST	/codesvaults	undefined
+20240317	00:03:22	44836765-f2b7-4d43-bd00-d3b7484cb00c	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240317	00:03:36	9d5df932-8a0b-4b53-b5c3-ae9e92ed0f97	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240317	00:03:41	953f1aee-e669-40ed-97d4-ef807db30e9b	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240317	00:04:32	768f80e0-a37e-4a04-993b-31e3ea489397	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240317	00:14:35	b1a97fa9-facd-42b9-8ddb-702b2207f779	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240320	10:28:51	6c64e7b0-47fb-474c-920a-217d00614c78	error: update or delete on table "vaults" violates foreign key constraint "codesvaults_vault_id_fkey" on table "codesvaults"	DELETE	/vaults	http://localhost:5173
+20240320	18:05:16	74e16de1-7152-41cf-b9ca-f44fe77afb58	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:05:18	2d0afb0a-76f4-4af8-88a4-ca6f52951597	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	18:05:21	7aed5cff-524c-4583-b092-e1acd9f785af	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:05:22	fe427828-59de-4042-bf10-240a08577ea1	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	18:05:25	6fe17af7-9e67-4d17-9aac-bc7930d970e3	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:06:07	74b39d01-d02f-4974-9cb7-64c2b3b39f8b	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:06:09	1fe82d91-0866-4298-abc6-ebc884257fac	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:06:17	024398c1-431a-4f86-a76a-0a26ce2108f2	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:07:19	1d48cc8f-cf1c-4c1a-bddb-7aeb625e107f	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:07:44	61a93f53-aabe-484f-a564-e0ee2c2e2038	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:08:05	878a1df5-ca4f-4e80-8b4f-bac09f02495c	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:09:06	fd717874-723f-4845-8d9c-504fc98ba0be	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:10:07	dc59cf64-7c3c-40c6-9595-3dea59e41d2f	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:11:07	c009083c-3824-417b-8a7e-d224b2809ed7	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:12:09	dfc73969-a504-4263-abc2-f48c60ad7c79	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:13:10	229d0e71-3d38-408a-b5dc-700725f70676	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:14:11	a41db66f-7e28-4f4e-bf4f-d417fb8f6d28	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:15:11	30c2f92a-0ae9-4310-9a8e-1ae4d5caa2c6	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:16:12	f6f9e299-1f0b-4e37-bbbb-6f023fb92364	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:17:13	4860f0e9-3e41-455b-bcbf-7c735ea28319	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:18:15	b836aae4-0562-4488-a9ae-05ad2bb75575	error: relation "codes" does not exist	GET	/codes	http://localhost:5173
+20240320	18:25:02	10f95bb1-9aaf-43ec-a784-ee6f6ffd92f9	error: column "roles" of relation "users" does not exist	POST	/users	undefined
+20240320	18:25:52	eff108a0-1e36-4a51-b6f6-6b927121537a	ReferenceError: roles is not defined	POST	/users	undefined
+20240320	19:59:47	91bf79cc-c99f-43dc-85eb-bf37e64626b1	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	20:14:11	3c2c7907-4fb3-4ef8-96fa-614467eba3eb	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	20:14:13	2c3df913-ed9d-4006-91da-4d8c5453d79e	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	20:14:18	00acb226-894c-4128-a7f6-b69029fa19c6	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240320	20:14:50	98b188af-e384-43b8-805e-a1478d2499d3	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	16:51:51	a2bc4dfd-6496-4015-addc-ff4760ff986c	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	16:52:16	7a776f28-da46-4609-a387-d59ed1606953	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	16:52:25	ea542e02-c24d-4691-9f9c-00ba950faa87	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	16:56:30	4fd40d36-4401-46ad-9653-50ccaee1b484	error: relation "codesvaults" does not exist	POST	/codesvaults	undefined
+20240321	17:03:13	5d657df0-ee52-4462-a1e5-0f9ce05f2372	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:04:14	3e76ca1d-5432-46d9-a418-73917836e28d	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:08:29	ff58a1d5-6361-4786-a033-035d22834a2d	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:09:28	157c8234-86ed-43aa-90fc-8f481069f38e	error: relation "codesvaults" does not exist	GET	/vaults	undefined
+20240321	17:09:29	44e72b5f-1351-45fd-b9b7-bbc3bf436a16	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:09:34	dc88014a-8a22-46ff-9245-08ccbe02543a	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:09:38	4714a990-b7df-44b5-ab27-6edc376ba822	error: relation "codesvaults" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:10:20	286c40a6-e739-42fd-b00f-3e67daf136fa	error: relation "codes" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:10:22	954ac1a5-de10-4924-9ff4-3c56e8ef266c	error: relation "codes" does not exist	GET	/vaults	http://localhost:5173
+20240321	17:32:13	38d4578b-48d1-4b01-a7ab-2dd5ef05fa83	error: column "vaultname" of relation "vaults" does not exist	POST	/vaults	http://localhost:5173
+20240321	17:32:34	24c89fe0-0b49-4533-9be6-88db0b2ed877	error: column "vaultname" of relation "vaults" does not exist	POST	/vaults	http://localhost:5173
+20240321	17:33:22	27963dee-729b-41dd-8fe3-20c75d91611c	error: column "vaultname" of relation "vaults" does not exist	POST	/vaults	http://localhost:5173
+20240321	17:37:30	b5b74270-45f7-4754-b6b5-50bec5fda013	error: column "vaultname" does not exist	PATCH	/vaults	http://localhost:5173
+20240321	17:37:37	60c82f37-ba9c-4577-a563-ab670fb5cbe9	error: column "vaultname" does not exist	PATCH	/vaults	http://localhost:5173
+20240323	22:29:08	9227e785-f9a0-4f24-acff-95f8d6b60bac	error: column "vault_id" does not exist	GET	/vaults	http://localhost:5173
+20240323	22:29:09	c3a5b11b-53c7-4b9c-a9b0-77c0c9962231	error: column "vault_id" does not exist	GET	/vaults	http://localhost:5173
+20240323	22:29:09	c1d22489-2369-494b-8748-75fe93356326	error: column "vault_id" does not exist	GET	/vaults	http://localhost:5173
+20240329	17:23:31	727332ef-810f-4101-94ff-f6a3f5e2d784	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:29:55	4b0d89f4-af08-4c68-a3e4-c8135259354f	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:41	0d59a7fe-5004-4498-81c8-71a78c3b8004	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:42	6e8fdddd-9e10-4183-99b7-716b13a037ed	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:42	261bbc15-9fff-4781-8c3a-a51cc2940d7a	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:43	8b529554-5a6b-4eac-b0fb-140b3f2c905e	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:43	b7fa544b-2550-4108-a79f-87025c2d0c5d	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:43	e7f439a7-575e-4273-a1d9-d2d597d2edce	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:43	9de94c49-d5dc-4eac-b5aa-30a0ba502849	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:43	8842eb22-e49d-4f43-b863-0553c40bd16c	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:44	73ab1d47-6fb7-4607-8b3e-a84b808254ee	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:44	a21dba1e-fd6c-40a1-8e02-3b10f2cabf48	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:44	dbe5901d-0f88-49db-9c02-7c8cd6684e44	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:44	944ec346-e144-4451-aee8-6a82c6be8066	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:36:44	5c977d23-acc6-4a12-adb7-2101b678216b	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:44:46	53112bfa-cd26-4906-ac4b-10c4a6e9d5e8	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:44:52	70730e5e-3939-43a9-bcb5-0e8a92be2838	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:58:37	b76f250e-33d9-4008-b3b8-5005336ebf2b	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:58:46	14166b84-0fb0-44db-a18b-5495c0d25407	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	17:58:50	8a01e589-4527-40ef-b8df-b7d58debb750	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240329	21:58:29	44ad6b8f-3f41-40b2-9397-97f20ce7e353	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240330	19:52:41	3c958f0a-c18a-4b36-95ca-aa7038b5855f	error: relation "vaults" does not exist	GET	/vaults	http://localhost:5173
+20240330	20:43:34	688f7191-5065-4ff5-80f8-5f1937cebff7	error: database "obraztsy" does not exist	GET	/vaults	http://localhost:5173
+20240330	20:44:35	d281541d-b4db-4b75-95d1-3b5a8f00ef15	error: relation "vaults" does not exist	GET	/vaults	http://localhost:5173
+20240330	20:44:58	634bcac4-21e1-4553-95b2-18f60d326e73	error: relation "vaults" does not exist	GET	/vaults	http://localhost:5173
+20240330	20:45:00	cf341161-8d9f-4563-bcc7-8d04665d114e	error: relation "users" does not exist	GET	/users	http://localhost:5173
+20240330	21:08:12	47955b0e-be0d-4b6c-86fa-72ec6a09441a	error: syntax error at or near ","	POST	/vaults	http://localhost:5173
+20240330	21:11:04	2e55d56e-ed1c-4364-9539-6c5d492133ba	error: bind message supplies 1 parameters, but prepared statement "" requires 2	POST	/vaults	http://localhost:5173
+20240330	21:12:33	23dfe1da-6098-412e-b788-d029e2ab2823	error: bind message supplies 1 parameters, but prepared statement "" requires 2	POST	/vaults	http://localhost:5173
+20240330	21:12:52	501e3383-92f4-4bb3-b0d0-c9b6895f87cf	error: bind message supplies 1 parameters, but prepared statement "" requires 2	POST	/vaults	http://localhost:5173
+20240330	21:15:14	00e41dd5-b065-468d-bac9-12eb0f784c3c	error: bind message supplies 1 parameters, but prepared statement "" requires 2	POST	/vaults	http://localhost:5173
+20240330	21:40:47	193a151b-85f9-4de3-a081-a959b9d2d15d	error: syntax error at or near "ASC"	GET	/vaults	http://localhost:5173
+20240330	21:41:00	8a09418b-32ed-4e2f-9860-2d91d979e9fb	error: syntax error at or near "ASC"	GET	/vaults	http://localhost:5173
+20240330	21:42:06	272630ae-aede-4efc-8450-c98673c48614	error: value too long for type character varying(100)	PATCH	/vaults	http://localhost:5173
+20240330	22:20:22	208bd969-977e-4714-96ce-a715e4f78315	Too Many Requests: Too many login attempts from this IP, please try again after a 60 second pause	POST	/	http://localhost:5173
+20240331	08:36:19	7c9c4b3b-6784-4520-8609-6802abbb22e8	error: syntax error at or near "c"	GET	/codes	http://localhost:5173
+20240331	13:52:40	2ac05878-2ecc-40c5-9c90-dd6c22f9c027	error: update or delete on table "vaults" violates foreign key constraint "codes_in_vaults_vault_id_fkey" on table "codes_in_vaults"	DELETE	/vaults	http://localhost:5173
+20240401	20:11:27	b288265d-d998-455e-9e32-aecdc5fc1e6f	error: update or delete on table "vaults" violates foreign key constraint "codes_in_vaults_vault_id_fkey" on table "codes_in_vaults"	DELETE	/vaults	http://localhost:5173
+20240401	20:11:34	8889e22a-64d7-46f1-af72-f1e112930922	error: update or delete on table "vaults" violates foreign key constraint "codes_in_vaults_vault_id_fkey" on table "codes_in_vaults"	DELETE	/vaults	http://localhost:5173
+20240401	20:12:42	1d8db77b-ef89-41cd-b745-0ef86464f627	ReferenceError: result is not defined	DELETE	/vaults	http://localhost:5173
+20240401	20:13:05	47e867c7-0fc0-4ed7-8a8e-03187131200f	TypeError: Cannot read properties of undefined (reading 'rows')	DELETE	/vaults	http://localhost:5173
+20240402	18:02:02	156ab526-d6c6-4881-b8d1-1b37c66ab57d	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240405	18:48:44	a86ceef6-606f-4187-8e3c-e5fb90bf49fa	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:5175
+20240405	19:18:18	318205ee-caca-40ef-9a54-30457d15201b	ReferenceError: role is not defined	POST	/auth	http://localhost:5175
+20240406	12:55:06	882548ac-3599-43f9-b595-c2eac2664a59	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:5176
+20240406	20:31:13	27bc82db-4ee1-45b5-8ea0-314a18a9fcd4	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240406	20:31:20	e925271d-2e5a-456c-8b53-e1269560a907	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240406	20:47:21	01090554-27e5-4fa2-938e-285f1e963fb4	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240411	17:48:49	abba217b-c918-456e-beed-8407d6401ae1	SyntaxError: Unexpected token b in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:49:35	a32dc314-6f64-42a7-811a-4d60c39f4e36	SyntaxError: Unexpected token 1 in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:51:32	7f2c28ed-7956-4d5e-b155-97fe715ff410	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:07	a876db13-f520-4e2d-9ed9-7a717896143e	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:08	8d7a477c-ef4d-4ed9-b53b-6cefbd8159be	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:09	2839b9cc-56af-4491-a73d-0f7374fff9d2	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:10	51a3e097-cd62-4290-b4f1-76e9283ea61b	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:10	ba5a0484-a5be-4791-9e69-47645525d445	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	17:52:11	91f9eaad-24cb-42a1-8191-cc8e94b406ad	SyntaxError: Unexpected token " in JSON at position 0	DELETE	/codes	http://localhost:5173
+20240411	20:37:33	43dca3d1-e61c-462f-987f-a12925320bea	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/1737e8d4-847b-4ef0-a670-608d0349275a	http://localhost:5173
+20240411	20:37:38	a4e93b5d-fd63-4114-9eca-d075228aee2e	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/1737e8d4-847b-4ef0-a670-608d0349275a	http://localhost:5173
+20240411	20:37:39	94e156c2-7f28-44ec-9bfe-b0df517ca54d	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/1737e8d4-847b-4ef0-a670-608d0349275a	http://localhost:5173
+20240411	20:37:39	b4515e60-b4ad-4236-8ca6-93fbc4bb555c	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/1737e8d4-847b-4ef0-a670-608d0349275a	http://localhost:5173
+20240411	20:38:02	2763ae8e-5298-430c-b788-8f3d41861c8f	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/c882e202-9ea3-4bf8-91f9-79e0deff673b	http://localhost:5173
+20240411	20:38:30	dfd53a7b-594b-4989-8aa4-2877991db859	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/1737e8d4-847b-4ef0-a670-608d0349275a	http://localhost:5173
+20240411	20:38:31	960301a8-f2d3-4d95-90d2-1b25e6957050	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/b78cca2f-6bb8-47d9-92aa-13a2a2bf32f2	http://localhost:5173
+20240411	20:38:32	c61c2dbe-3c4f-4914-b772-b1aeff418faa	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/431ab9e7-ca3e-4ac9-9e15-2b2f9d168d0d	http://localhost:5173
+20240411	20:38:33	31716806-3143-46cb-a621-41e61b387131	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/c882e202-9ea3-4bf8-91f9-79e0deff673b	http://localhost:5173
+20240411	20:38:34	f57fc67c-8df9-4f4f-85d5-ee90ffd728d1	error: update or delete on table "codes" violates foreign key constraint "codes_in_vaults_code_id_fkey" on table "codes_in_vaults"	DELETE	/codes/4fdaedbc-2a07-48b7-9108-b7391bbf6b9a	http://localhost:5173
+20240412	18:51:52	4dbcc512-e2db-47cf-a818-116e6324715e	error: invalid input syntax for type uuid: "undefined"	DELETE	/codes/undefined	http://localhost:5173
+20240412	18:55:17	f16ad56d-e4cb-4c08-a810-6c977eff1b24	error: invalid input syntax for type uuid: "undefined"	DELETE	/codes/undefined	http://localhost:5173
+20240413	13:11:31	dd778513-87d4-4855-8e6a-d0282189c619	error: null value in column "stock_level" of relation "codes" violates not-null constraint	PATCH	/codes/0cbe6071-9f4d-426b-b3d9-fdcc8dbb9ea4	http://localhost:5173
+20240413	13:11:36	a18d95db-8504-425f-b37a-4ad7c8d84317	error: null value in column "stock_level" of relation "codes" violates not-null constraint	PATCH	/codes/0cbe6071-9f4d-426b-b3d9-fdcc8dbb9ea4	http://localhost:5173
+20240413	13:13:35	59105176-5f76-4a8e-905e-1e6e5799638d	error: null value in column "stock_level" of relation "codes" violates not-null constraint	PATCH	/codes/0cbe6071-9f4d-426b-b3d9-fdcc8dbb9ea4	http://localhost:5173
+20240413	13:13:38	ee7cf15c-22e3-4be5-a56b-5998080578e4	error: null value in column "stock_level" of relation "codes" violates not-null constraint	PATCH	/codes/0cbe6071-9f4d-426b-b3d9-fdcc8dbb9ea4	http://localhost:5173
+20240413	13:56:41	197285b3-8837-4a41-90a2-bc5cb2180186	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240413	15:03:57	39ba25be-0acf-4a9f-ab1b-76296bf38ceb	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240413	16:21:00	19de99ab-541f-4e7a-80de-ae34f5a15a33	error: invalid input syntax for type uuid: "undefined"	DELETE	/codesinvaults/undefined	http://localhost:5173
+20240413	16:21:11	0f05e051-9583-4ba3-935f-f5dbddafa3a9	error: invalid input syntax for type uuid: "undefined"	DELETE	/codesinvaults/undefined	http://localhost:5173
+20240413	16:24:40	b61d7b6b-109d-4e85-8760-6409d6051fbc	error: invalid input syntax for type uuid: "undefined"	DELETE	/codesinvaults/undefined	http://localhost:5173
+20240413	16:24:42	e2f79039-5c3e-4a61-99e0-d0d6e5060434	error: invalid input syntax for type uuid: "undefined"	DELETE	/codesinvaults/undefined	http://localhost:5173
+20240413	16:37:29	d27b2abe-b588-4a54-b4e6-f718bc9c9e35	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:39:01	d7314a23-d09d-4d8a-aeac-865393a7f214	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:40:32	d62dcfd2-d512-45a8-b2ba-64d5c0e3bad2	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:40:34	ccd81c18-a02f-4e3c-8392-ebead93c2381	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:40:36	f00f0d1e-98e1-4dfd-8cc0-4bc10e9fa5a3	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:40:47	e5e0ca49-e13a-4a2c-85d1-6945c77c3af7	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:04	2329f501-40fe-4fa1-8a47-ff47d8789c67	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:18	d8998e5e-e0fb-44fd-b21f-5fa35098f30d	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:19	eb2ba49e-4b6e-490c-9b9f-2c44d80fface	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:20	f8b046c6-9d0b-46ab-a664-d582e4add8cf	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:24	7d747f36-2d49-49ec-8556-e788a01da01b	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:26	b839e047-8d02-4da6-918e-0c25e7857e98	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:27	3b0d09dc-c89a-4dca-978c-0aa902cf9137	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:29	df823165-ec46-4241-b231-e5df8df26d83	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:31	f28767f1-dcf1-4054-b9d6-3f7e426e82c9	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:32	54ad4187-8564-4a25-9a93-1ecea854879a	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:34	13876531-85a1-43b7-87e0-28c2990e3cf6	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:41:35	538e73f9-cfab-4d71-92ac-c0ad9e166d04	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:44:42	9034b907-9b5e-4722-84bf-cbc6fae3fa2b	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:44:43	65a9e1b0-8e0a-4c7a-8f68-4a24a3b585c6	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:44:46	97ed12df-0589-426a-b212-266eba394a58	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:46:23	16a2a8a8-2a4b-4f41-8e83-f3b8c0536f90	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:46:26	11ea787b-4146-4f95-b6b8-0235aa0dc0c7	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:46:28	2acb8582-b515-467c-af8d-ad1be20eb3ea	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:46:29	b423f44c-c565-4cf6-9c77-c3779504210f	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:48:40	1e58ab7e-7c23-40e2-99c5-fd9fbbb71031	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:48:43	ee78d824-757a-4144-ba83-645f6f815f45	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:48:45	ca576025-bcb6-480d-b0d1-db1504886747	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:50:01	693a6d33-2f24-44ea-bd68-2ff0b2f91811	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	16:50:02	3b6c4c17-9dd4-4030-a408-52c8565cc5dd	error: invalid input syntax for type uuid: "[object Object]"	DELETE	/codesinvaults/[object%20Object]	http://localhost:5173
+20240413	17:00:15	8978828b-b767-49a8-84ec-46b238670a05	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240413	18:23:18	493bd6d5-68ef-4989-b411-45b4e64d1583	error: duplicate key value violates unique constraint "codes_code_index_key"	PATCH	/codes/ebd4f590-24c4-45e2-9208-10999c304a0e	http://localhost:5173
+20240413	18:23:24	bd4d7938-e47b-41d6-94ce-2684bcd0019e	error: duplicate key value violates unique constraint "codes_code_index_key"	PATCH	/codes/ebd4f590-24c4-45e2-9208-10999c304a0e	http://localhost:5173
+20240413	18:23:27	be4712b1-1ed8-4d32-993f-f69f857e68d6	error: duplicate key value violates unique constraint "codes_code_index_key"	PATCH	/codes/3da0fb3c-90b2-47ed-bbe0-0aa550f27bc4	http://localhost:5173
+20240413	18:25:55	97466031-e8e3-4d74-8aca-ac314a0dd128	error: syntax error at or near "v"	GET	/vaults	http://localhost:5173
+20240413	18:25:55	fbbb33e0-3a54-4f21-8fb1-3ba83ac7a316	error: syntax error at or near "v"	GET	/vaults	http://localhost:5173
+20240413	18:26:34	8c62788f-e1e7-47af-9191-74c747c951b2	error: syntax error at or near "ORDER"	GET	/vaults	http://localhost:5173
+20240413	18:26:34	39006dbd-2141-489e-be10-b340b5dc55d0	error: syntax error at or near "ORDER"	GET	/vaults	http://localhost:5173
+20240414	07:45:23	40256014-2461-4167-b2d1-8564f1916a16	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240414	07:45:26	3eab9c4e-21d3-4206-ade8-29f7c8a3abe9	error: invalid input syntax for type uuid: ""	POST	/codesinvaults	http://localhost:5173
+20240419	10:18:21	5dcb6923-1cb3-48fd-bc1e-b6a8b8f8e2ac	TypeError: Cannot read properties of undefined (reading 'username')	GET	/users	http://localhost:5173
+20240419	10:19:33	78263d40-b9ba-446f-aac6-684ac66ad1b1	TypeError: Cannot read properties of undefined (reading 'username')	GET	/users	http://localhost:5173
+20240419	10:21:24	ceaac246-2cbf-406e-94f0-304d44e008e4	TypeError: Cannot read properties of undefined (reading 'username')	GET	/users	http://localhost:5173
+20240419	10:23:36	503aeb88-9b2d-4ab4-9b1d-302bcb45f033	TypeError: Cannot read properties of undefined (reading 'username')	GET	/users	http://localhost:5173
+20240419	10:25:08	14f14153-a029-4ede-88e7-b2c73e67dc78	TypeError: Cannot read properties of undefined (reading 'username')	GET	/users	http://localhost:5173
+20240419	14:40:36	b59c4fb4-28f7-4404-a5d0-6281569f7748	error: null value in column "role" of relation "users" violates not-null constraint	POST	/users	http://localhost:5173
+20240419	15:56:03	abb14770-baf1-4f61-9fde-0c6306a557e9	TypeError: Cannot destructure property 'id' of 'res.params' as it is undefined.	GET	/users/f8f5be65-7df1-4033-a742-475505bae95b	http://localhost:5173
